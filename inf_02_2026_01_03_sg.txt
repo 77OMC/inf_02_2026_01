@@ -1,0 +1,254 @@
+Arkusz zawiera informacje
+prawnie chronione do momentu
+rozpoczęcia egzaminu
+
+Nazwa kwalifikacji: Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych
+i lokalnych sieci komputerowych
+Symbol kwalifikacji: INF.02
+Numer zadania: 03
+Wersja arkusza: SG
+Wypełnia zdający
+Numer PESEL zdającego*
+
+Miejsce na naklejkę z numerem
+PESEL i z kodem ośrodka
+
+Numer stanowiska
+
+Czas trwania egzaminu: 150 minut
+
+EGZAMIN ZAWODOWY
+Rok 2026
+CZĘŚĆ PRAKTYCZNA
+
+INF.02-03-26.01-SG
+
+PODSTAWA PROGRAMOWA
+2019
+
+Instrukcja dla zdającego
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Na pierwszej stronie arkusza egzaminacyjnego wpisz w oznaczonym miejscu swój numer PESEL*,
+numer stanowiska i naklej naklejkę** z numerem PESEL i z kodem ośrodka.
+Sprawdź, czy arkusz egzaminacyjny zawiera 5 stron i nie zawiera błędów. Ewentualny brak stron
+lub inne usterki zgłoś przez podniesienie ręki przewodniczącemu zespołu nadzorującego.
+Zapoznaj się z treścią zadania oraz stanowiskiem egzaminacyjnym. Masz na to 10 minut. Czas ten nie
+jest wliczany do czasu trwania egzaminu.
+Czas rozpoczęcia i zakończenia pracy zapisze w widocznym miejscu przewodniczący zespołu
+nadzorującego.
+Wykonaj samodzielnie zadanie egzaminacyjne. Przestrzegaj zasad bezpieczeństwa i organizacji
+pracy.
+Jeżeli w zadaniu egzaminacyjnym występuje polecenie „zgłoś gotowość do oceny przez podniesienie
+ręki”, to zastosuj się do polecenia i poczekaj na decyzję przewodniczącego zespołu nadzorującego.
+Po zakończeniu wykonania zadania pozostaw rezultaty jego wykonania oraz arkusz egzaminacyjny
+na swoim stanowisku lub w miejscu wskazanym przez przewodniczącego zespołu nadzorującego.
+Po uzyskaniu zgody zespołu nadzorującego możesz opuścić salę/miejsce przeprowadzania egzaminu.
+Powodzenia!
+
+* w przypadku braku numeru PESEL – seria i numer paszportu lub innego dokumentu potwierdzającego tożsamość
+** w przypadku otrzymania naklejki
+Układ graficzny
+© CKE 2025
+
+Zadanie egzaminacyjne
+Korzystając z dostępnych narzędzi, oprogramowania oraz elementów znajdujących się na stanowisku
+egzaminacyjnym wykonaj czynności zapisane w arkuszu egzaminacyjnym.
+W systemie Windows wykorzystaj konto Administrator z hasłem ZAQ!2wsx
+W systemie Linux wykorzystaj konto administrator z hasłem ZAQ!2wsx (konto z prawem podniesienia
+uprawnień do root z hasłem ZAQ!2wsx)
+Ruter oraz przełącznik pracują na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna
+na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli ruter lub przełącznik wymaga zmiany hasła,
+ustaw je zgodnie z wymogami urządzenia.
+1. Wykonaj na stacji roboczej montaż zapasowej pamięci RAM:
+− zdemontuj pamięć RAM zainstalowaną na płycie głównej
+− zamontuj zapasową pamięć RAM, znajdującą się na wyposażeniu stanowiska egzaminacyjnego.
+UWAGA: Po wykonaniu montażu podzespołu zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do jego oceny. Po uzyskaniu zgody przystąp do dalszych czynności montażowych i uruchomienia
+systemu operacyjnego Windows.
+2. Za pomocą dostępnych w systemie operacyjnym Windows narzędzi przeprowadź na stacji roboczej
+identyfikację parametrów systemu i podzespołów komputera. Odczytane dane, zapisz w postaci zrzutów
+ekranowych, w folderze podzespoly, znajdującym się na dysku USB oznaczonym nazwą Egzamin-x gdzie
+x to numer stanowiska egzaminacyjnego. Odczytane dane zapisz w Tabeli 1. Parametry systemu
+i podzespołów znajdującej się w arkuszu egzaminacyjnym. W przypadku braku możliwości identyfikacji
+wymaganych parametrów przez system należy zapisać brak danych.
+3. Skonfiguruj ruter zgodnie z następującymi zaleceniami:
+− adres IP interfejsu WAN: 212.10.10.20/26, brama domyślna: 212.10.10.1
+− serwer DNS dla interfejsu WAN: 8.8.8.8 oraz drugi serwer DNS: 8.8.4.4, jeśli jest wymagany
+−
+−
+
+adres IP interfejsu LAN: 192.168.0.1/24
+serwer DHCP:
+‒ włączony
+‒ zakres adresów: 192.168.0.60 ÷ 192.168.0.80
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość
+do oceny ustawień rutera.
+4. Skonfiguruj przełącznik zgodnie z następującymi zaleceniami:
+−
+−
+
+adres IP: 192.168.0.2/24
+brama domyślna: adres IP interfejsu LAN rutera
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość
+do oceny ustawień przełącznika.
+
+Strona 2 z 5
+
+5. Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia
+zgodnie ze schematem, a następnie podłącz je do sieci zasilającej.
+
+Schemat połączenia urządzeń
+
+6. Na stacji roboczej skonfiguruj system Windows:
+− skonfiguruj przewodowy interfejs sieciowy podłączony do przełącznika:
+‒ adres IP: 192.168.0.10+X/24, gdzie X oznacza numer stanowiska egzaminacyjnego (np. dla
+stanowiska egzaminacyjnego numer 5 adres IP to 192.168.0.15)
+‒ brama domyślna i DNS: adres IP interfejsu LAN rutera
+− zainstaluj drukarkę sieciową, dostępną pod adresem IP 192.168.0.200 poprzez protokół RAW
+−
+−
+
+−
+−
+
+wydrukuj stronę testową drukarki, czynność wydruku zgłoś przez podniesienie ręki. Stronę testową
+dołącz do arkusza egzaminacyjnego
+utwórz konto użytkownika o następujących własnościach:
+‒ pełna nazwa oraz nazwa logowania: EGZAMIN
+‒ hasło docelowe: INF@02egz#
+‒ użytkownik nie może zmienić hasła
+dodaj konto użytkownika EGZAMIN do grupy Czytelnicy dzienników zdarzeń
+włącz w systemie wymóg stosowania złożonych haseł dla użytkowników
+
+7. Utwórz na stacji roboczej w systemie Windows pliki wsadowe:
+− utwórz folder C:\Wsadowe
+− skopiuj do folderu C:\Wsadowe foldery: archiwum1, archiwum2, dane znajdujące się na nośniku
+DOKUMENTACJA/PROGRAMY w folderze PLIKI
+− utwórz w folderze C:\Wsadowe trzy pliki wsadowe, według zaleceń:
+− plik1.bat – wykonuje kopiowanie wszystkich plików z folderu dane do folderu archiwum1
+−
+
+plik2.bat – pobiera rozszerzenie plików jako parametr wywołania skryptu, a następnie wykonuje
+kopiowanie plików o pobranym rozszerzeniu z folderu dane do folderu archiwum2, np. gdy
+parametrem pliku wsadowego jest txt, są kopiowane wszystkie pliki z rozszerzeniem txt
+
+−
+
+plik3.bat – dopisuje na końcu pliku dane\informacje.txt następujące informacje:
+Nowy wpis w dniu:
+<aktualna data>
+<lista folderów i plików tylko w katalogu głównym dysku C:>
+
+−
+
+w polach <aktualna data> i < lista folderów i plików tylko w katalogu głównym dysku C:> skorzystaj
+z poleceń i zmiennej systemowej, tak aby pola były wypełniane automatycznie danymi pobranymi
+z systemu
+uruchom utworzone pliki wsadowe.
+
+Strona 3 z 5
+
+8. Skonfiguruj serwer z systemem operacyjnym Linux:
+−
+
+skonfiguruj przewodowy interfejs sieciowy serwera podłączony do przełącznika:
+‒ adres IP: 192.168.0.30+X/24, gdzie X oznacza numer stanowiska egzaminacyjnego (np. dla
+stanowiska egzaminacyjnego numer 5 adres IP to 192.168.0.35)
+‒ brama domyślna: adres IP interfejsu LAN rutera
+‒ DNS: localhost
+
+−
+
+drugi przewodowy interfejs sieciowy – wyłączony
+
+−
+
+−
+
+zapisz w Tabeli 2. Lokalizacja głównej witryny serwera HTTP domyślną ścieżkę głównej witryny
+w zainstalowanym serwerze HTTP
+zmień zawartość głównej witryny w domyślnej lokalizacji serwera HTTP na plik index.html, znajdujący
+się na nośniku DOKUMENTACJA/PROGRAMY w folderze PLIKI
+uruchom serwer HTTP
+
+−
+
+za pomocą przeglądarki internetowej wyświetl stronę główną witryny
+
+−
+
+UWAGA: Po wyświetleniu strony zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny poprawności jej wyświetlenia.
+−
+
+utwórz katalog /kopie_strony
+
+−
+
+ustaw prawa do katalogu /kopie_strony dla właściciela: pełne, dla grupy: odczyt i wykonanie oraz dla
+innych: brak
+z konfiguracji serwera HTTP odczytaj użytkownika i grupę, na prawach których działa serwer HTTP
+ustaw dla katalogu /kopie_strony właściciela i grupę, na prawach których działa serwer HTTP.
+
+−
+−
+
+9. Na serwerze za pomocą poleceń systemowych wykonaj test komunikacji serwera ze stacją roboczą,
+przełącznikiem, drukarką oraz interfejsem LAN rutera. W razie potrzeby na stacji roboczej zmień
+odpowiednio ustawienia zapory sieciowej.
+UWAGA: Po wykonaniu testów połączenia zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia ponownego sprawdzenia komunikacji. Sprawdzenie wykonaj w obecności
+egzaminatora.
+UWAGA: Po zakończeniu prac nie wylogowuj się oraz nie wyłączaj komputerów i urządzeń sieciowych
+znajdujących się na Twoim stanowisku egzaminacyjnym.
+Czas przeznaczony na wykonanie zadania wynosi 150 minut.
+Ocenie będzie podlegać 6 rezultatów:
+−
+
+wykonany montaż podzespołu oraz połączenie fizyczne urządzeń,
+
+−
+−
+
+identyfikacja parametrów,
+skonfigurowane urządzenia sieciowe,
+
+−
+−
+
+skonfigurowany serwer,
+skonfigurowana stacja robocza,
+
+− utworzone pliki wsadowe
+oraz
+przebieg wykonywania montażu pamięci RAM
+
+Strona 4 z 5
+
+UWAGA: Zawartość dysku USB, wykorzystywanego podczas egzaminu do zapisu zrzutów ekranowych lub
+dokumentów, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz
+z arkuszem do OKE.
+
+Tabela1. Parametry systemu i podzespołów
+Nazwa systemu operacyjnego
+Oznaczenie wersji systemu operacyjnego
+Rozmiar zainstalowanej pamięci RAM
+Rozmiar dostępnej pamięci RAM
+Rozmiar dostępnej pamięci wirtualnej
+Obszar pliku stronicowania
+
+Tabela 2. Lokalizacja głównej witryny serwera HTTP
+
+Strona 5 z 5
+
+
