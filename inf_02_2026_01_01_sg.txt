@@ -1,0 +1,316 @@
+Arkusz zawiera informacje
+prawnie chronione do momentu
+rozpoczęcia egzaminu
+
+Nazwa kwalifikacji: Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych
+i lokalnych sieci komputerowych
+Symbol kwalifikacji: INF.02
+Numer zadania: 01
+Wersja arkusza: SG
+Wypełnia zdający
+Numer PESEL zdającego*
+
+Miejsce na naklejkę z numerem
+PESEL i z kodem ośrodka
+
+Numer stanowiska
+
+Czas trwania egzaminu: 150 minut
+
+EGZAMIN ZAWODOWY
+Rok 2026
+CZĘŚĆ PRAKTYCZNA
+
+INF.02-01-26.01-SG
+
+PODSTAWA PROGRAMOWA
+2019
+
+Instrukcja dla zdającego
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Na pierwszej stronie arkusza egzaminacyjnego wpisz w oznaczonym miejscu swój numer PESEL*,
+numer stanowiska i naklej naklejkę** z numerem PESEL i z kodem ośrodka.
+Sprawdź, czy arkusz egzaminacyjny zawiera 6 stron i nie zawiera błędów. Ewentualny brak stron
+lub inne usterki zgłoś przez podniesienie ręki przewodniczącemu zespołu nadzorującego.
+Zapoznaj się z treścią zadania oraz stanowiskiem egzaminacyjnym. Masz na to 10 minut. Czas ten nie
+jest wliczany do czasu trwania egzaminu.
+Czas rozpoczęcia i zakończenia pracy zapisze w widocznym miejscu przewodniczący zespołu
+nadzorującego.
+Wykonaj samodzielnie zadanie egzaminacyjne. Przestrzegaj zasad bezpieczeństwa i organizacji
+pracy.
+Jeżeli w zadaniu egzaminacyjnym występuje polecenie „zgłoś gotowość do oceny przez podniesienie
+ręki”, to zastosuj się do polecenia i poczekaj na decyzję przewodniczącego zespołu nadzorującego.
+Po zakończeniu wykonania zadania pozostaw rezultaty jego wykonania oraz arkusz egzaminacyjny
+na swoim stanowisku lub w miejscu wskazanym przez przewodniczącego zespołu nadzorującego.
+Po uzyskaniu zgody zespołu nadzorującego możesz opuścić salę/miejsce przeprowadzania egzaminu.
+Powodzenia!
+
+* w przypadku braku numeru PESEL – seria i numer paszportu lub innego dokumentu potwierdzającego tożsamość
+** w przypadku otrzymania naklejki
+Układ graficzny
+© CKE 2025
+
+Zadanie egzaminacyjne
+Korzystając z dostępnych narzędzi, oprogramowania oraz elementów znajdujących się na stanowisku
+egzaminacyjnym, wykonaj czynności zapisane w arkuszu egzaminacyjnym.
+W systemie Linux wykorzystaj konto administrator z hasłem ZAQ!2wsx (konto z prawem podniesienia
+uprawnień do root z hasłem ZAQ!2wsx)
+W systemie Windows wykorzystaj konto Administrator z hasłem ZAQ!2wsx
+Ruter oraz przełącznik pracują na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna
+na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli ruter lub przełącznik wymaga zmiany hasła,
+ustaw je zgodnie z wymogami urządzenia.
+1. Wykonaj na stacji roboczej wymianę pamięci RAM:
+− zdemontuj pamięć RAM zainstalowaną na płycie głównej
+− zamontuj zapasową pamięć RAM, znajdującą się na wyposażeniu stanowiska
+egzaminacyjnego.
+UWAGA: Po zamontowaniu zapasowej pamięci RAM zgłoś Przewodniczącemu ZN – przez podniesienie ręki
+– gotowość do oceny wykonanego montażu. Po uzyskaniu zgody przystąp do dalszych czynności
+montażowych i uruchomienia systemu operacyjnego Windows.
+2. Przeprowadź diagnostykę stacji roboczej za pomocą dostępnych w systemie operacyjnym Windows
+narzędzi:
+− dokonaj identyfikacji parametrów systemu i podzespołów ujętych w Tabeli 2. Parametry systemu
+i podzespołów stacji roboczej oraz ocena znajdującej się w arkuszu egzaminacyjnym. Wyniki
+identyfikacji udokumentuj w postaci zrzutów ekranowych. Zrzuty zapisz w folderze Wymagania na
+nośniku USB oznaczonym nazwą Egzamin-x, gdzie x to numer stanowiska egzaminacyjnego
+−
+
+odczytane dane zapisz w tabeli 2. W wierszu Wirtualizacja zapisz „TAK”, jeśli w systemie włączono
+wirtualizację, w przeciwnym wypadku wpisz „NIE”. W przypadku braku możliwości identyfikacji
+wymaganych parametrów przez system należy zapisać brak danych
+
+−
+
+sprawdź, czy parametry systemu i wskazanych podzespołów spełniają wymagania oprogramowania
+do emulacji systemu Android podane w tabeli 1. Porównaj wymagania z konfiguracją komputera
+i w tabeli 2 w wierszu Ocena zapisz wniosek, czy jest możliwe korzystanie z tego programu na stacji
+roboczej. Swoją ocenę uzasadnij poprzez odniesienie się do odczytanych parametrów.
+Tabela 1. Wymagania oprogramowania do emulacji systemu Android
+Parametr
+Zalecane wymagania dla systemu Windows
+System operacyjny
+
+Windows 10 lub nowszy
+
+Procesor
+
+Intel Core i3/5/7/9 lub AMD Ryzen 3/5/7/9
+
+Karta graficzna
+
+Intel/NVIDIA/AMD, wbudowana lub osobna karta graficzna
+
+Wirtualizacja
+
+Włączona
+
+Pamięć RAM
+
+8 GB lub więcej
+
+Pamięć masowa
+
+SSD
+
+Strona 2 z 6
+
+3. Wykonaj montaż okablowania sieciowego:
+−
+‒
+
+wykonaj kabel połączeniowy prosty U/UTP zakończony z dwóch stron wtykiem 8P8C, według
+sekwencji T568B
+zastosuj odpowiedni typ kabla.
+
+UWAGA: Po wykonaniu montażu okablowania zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia testu. W obecności egzaminatora sprawdź za pomocą testera poprawność
+wykonanego okablowania.
+4. Skonfiguruj ruter zgodnie z następującymi zaleceniami:
+− adres IP interfejsu WAN: 90.90.0.1/29, brama domyślna: 90.90.0.2
+− serwer DNS dla interfejsu WAN: 208.67.222.222 oraz drugi: 208.67.220.220, jeśli jest wymagany
+− adres IP interfejsu LAN: 10.90.0.1/24
+− serwer DHCP: wyłączony.
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień rutera.
+5. Skonfiguruj przełącznik zgodnie z następującymi zaleceniami:
+−
+−
+
+adres IP: 10.80.0.3/24
+brama domyślna: 10.80.0.2
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień przełącznika.
+6. Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia
+zgodnie ze schematem.
+
+Schemat połączenia urządzeń
+7. Skonfiguruj serwer z systemem operacyjnym Linux:
+− skonfiguruj interfejs sieciowy serwera podłączony do rutera:
+‒ adres IP: 90.90.0.3/29
+‒ brama domyślna: 90.90.0.1
+‒ DNS: brak
+− skonfiguruj interfejs sieciowy serwera podłączony do przełącznika:
+‒ adres IP: 10.80.0.2/24
+‒ brama domyślna: brak
+‒ DNS: 10.80.0.2
+Strona 3 z 6
+
+−
+
+−
+−
+
+skonfiguruj i uruchom usługę DHCP zainstalowaną na serwerze według zaleceń:
+−
+−
+
+interfejs obsługujący żądania usługi DHCP: interfejs sieciowy serwera podłączony do przełącznika
+opcja serwer autorytatywny – ten serwer jest jedynym w podsieci źródłem informacji
+o przydzielaniu adresów IP
+
+−
+−
+−
+−
+
+podsieć: 10.80.0.0/24
+zakres adresów: 10.80.0.10 ÷ 10.80.0.30
+adres serwera DNS: 10.80.0.2
+domena: egzamin.edu
+
+−
+
+adres bramy domyślnej: 10.80.0.2
+
+−
+−
+
+adres rozgłoszeniowy: zgodny z adresacją
+domyślny czas dzierżawy: 1 godzina
+
+− maksymalny czas dzierżawy: 3 godziny
+w katalogu domowym użytkownika administrator utwórz katalog skrypty_admina, w nim utwórz skrypt
+powłoki konta.sh
+nadaj prawa do pliku konta.sh za pomocą notacji liczbowej: odczyt, zapis i wykonanie dla właściciela
+oraz jedynie uruchomienie dla grupy. Pełną formę polecenia użytego do nadania wymaganych praw
+zapisz w Tabeli 3. Polecenia Linux
+
+8. Napisz skrypt powłoki konta.sh:
+‒ wywoływany z dwoma parametrami, pierwszy – nazwa bazowa użytkownika, drugi – nazwa bazowa
+katalogu domowego
+‒ tworzy 5 kont wraz z katalogami domowymi, przy użyciu pętli:
+‒ każdemu użytkownikowi do nazwy bazowej zostaje dodany kolejny numer, np. jeżeli pierwszym
+parametrem jest „uczen”, to zostaną utworzone konta uczen1, uczen2, …, uczen5
+‒ dla każdego konta analogicznie tworzony jest katalog domowy, np. jeżeli drugim parametrem jest
+„3TI”, to dla konta uczen1 utworzony zostanie katalog domowy /home/3TI1, dla konta uczen2 –
+/home/3TI2, ..., dla konta uczen5 – /home/3TI5
+− uruchom skrypt podając jako pierwszy parametr: uczen, jako drugi parametr: 3TI
+− wpisz pełną formę polecenia użytego do wykonania skryptu z wymaganymi parametrami do tabeli 3
+arkusza egzaminacyjnego.
+9. Na stacji roboczej skonfiguruj system Windows:
+− skonfiguruj przewodowy interfejs sieciowy podłączony do przełącznika:
+‒ nazwa połączenia: LAN_S
+‒ adres IP oraz pozostałe parametry konfiguracji sieciowej: uzyskiwane automatycznie
+−
+−
+
+włącz funkcję systemu Windows: Podsystem Windows dla systemu Linux
+utwórz konto użytkownika standardowego asystent
+
+−
+
+dla użytkownika asystent ustaw ograniczenie miejsca na dysku do 8 GB, poziom ostrzeżeń ustaw na
+7 GB
+
+−
+
+zablokuj użytkownikom możliwość dodawania lub zmieniania obrazu tła pulpitu
+
+−
+
+w systemie włącz wskaźnik kursora tekstu i zmień jego kolor na zielony.
+
+10. Na serwerze za pomocą poleceń systemowych wykonaj test komunikacji serwera ze stacją roboczą,
+przełącznikiem oraz interfejsem WAN rutera. Wyświetl adres IP interfejsu przewodowego stacji roboczej.
+W razie potrzeby zmień odpowiednio na stacji roboczej ustawienia zapory sieciowej.
+
+Strona 4 z 6
+
+UWAGA: Po wykonaniu testów połączenia zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia ponownego sprawdzenia komunikacji. Sprawdzenie wykonaj w obecności
+egzaminatora. Na ekranie stacji roboczej wyświetl automatycznie nadany adres IP.
+UWAGA: Po zakończeniu prac nie wylogowuj się oraz nie wyłączaj komputerów i urządzeń sieciowych
+znajdujących się na Twoim stanowisku egzaminacyjnym.
+Czas przeznaczony na wykonanie zadania wynosi 150 minut.
+Ocenie będzie podlegać 6 rezultatów:
+− wykonane okablowanie sieciowe, montaż podzespołu oraz połączenie fizyczne urządzeń,
+−
+−
+
+diagnostyka,
+skonfigurowane urządzenia sieciowe,
+
+−
+−
+
+skonfigurowany serwer,
+skonfigurowana stacja robocza,
+
+− utworzony i wykonany skrypt powłoki
+oraz
+przebieg montażu podzespołu oraz wykonywania okablowania sieciowego.
+Uwaga: Zawartość dysku USB, wykorzystywanego podczas egzaminu do zapisu zrzutów ekranowych lub
+dokumentów, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz
+z arkuszem do OKE.
+
+Strona 5 z 6
+
+Tabela 2. Parametry systemu i podzespołów stacji roboczej oraz ocena
+System operacyjny
+
+Nazwa i typ
+Nazwa i oznaczenie
+
+Procesor
+Taktowanie
+Karta graficzna
+
+Producent
+
+Wirtualizacja
+
+Włączona
+(wpisz TAK lub NIE)
+
+Pamięć RAM
+
+Rozmiar
+Rodzaj
+
+Dysk twardy
+Pojemność
+
+Ocena
+
+Tabela 3. Polecenia Linux
+Działanie systemowe
+
+Użyte polecenie
+
+Polecenie nadające prawa za
+pomocą notacji liczbowej do pliku
+zawierającego skrypt
+Polecenie uruchamiające skrypt
+z parametrami: uczen oraz 3TI
+
+Strona 6 z 6
+
+
