@@ -1,0 +1,233 @@
+Arkusz zawiera informacje
+prawnie chronione do momentu
+rozpoczęcia egzaminu
+
+Nazwa kwalifikacji: Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych
+i lokalnych sieci komputerowych
+Symbol kwalifikacji: INF.02
+Numer zadania: 04
+Wersja arkusza: SG
+Wypełnia zdający
+Numer PESEL zdającego*
+
+Miejsce na naklejkę z numerem
+PESEL i z kodem ośrodka
+
+Numer stanowiska
+
+Czas trwania egzaminu: 150 minut
+
+EGZAMIN ZAWODOWY
+Rok 2026
+CZĘŚĆ PRAKTYCZNA
+
+INF.02-04-26.01-SG
+
+PODSTAWA PROGRAMOWA
+2019
+
+Instrukcja dla zdającego
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Na pierwszej stronie arkusza egzaminacyjnego wpisz w oznaczonym miejscu swój numer PESEL*,
+numer stanowiska i naklej naklejkę** z numerem PESEL i z kodem ośrodka.
+Sprawdź, czy arkusz egzaminacyjny zawiera 5 stron i nie zawiera błędów. Ewentualny brak stron
+lub inne usterki zgłoś przez podniesienie ręki przewodniczącemu zespołu nadzorującego.
+Zapoznaj się z treścią zadania oraz stanowiskiem egzaminacyjnym. Masz na to 10 minut. Czas ten nie
+jest wliczany do czasu trwania egzaminu.
+Czas rozpoczęcia i zakończenia pracy zapisze w widocznym miejscu przewodniczący zespołu
+nadzorującego.
+Wykonaj samodzielnie zadanie egzaminacyjne. Przestrzegaj zasad bezpieczeństwa i organizacji
+pracy.
+Jeżeli w zadaniu egzaminacyjnym występuje polecenie „zgłoś gotowość do oceny przez podniesienie
+ręki”, to zastosuj się do polecenia i poczekaj na decyzję przewodniczącego zespołu nadzorującego.
+Po zakończeniu wykonania zadania pozostaw rezultaty jego wykonania oraz arkusz egzaminacyjny
+na swoim stanowisku lub w miejscu wskazanym przez przewodniczącego zespołu nadzorującego.
+Po uzyskaniu zgody zespołu nadzorującego możesz opuścić salę/miejsce przeprowadzania egzaminu.
+Powodzenia!
+
+* w przypadku braku numeru PESEL – seria i numer paszportu lub innego dokumentu potwierdzającego tożsamość
+** w przypadku otrzymania naklejki
+Układ graficzny
+© CKE 2025
+
+Zadanie egzaminacyjne
+Korzystając z dostępnych narzędzi, oprogramowania oraz elementów znajdujących się na stanowisku
+egzaminacyjnym wykonaj czynności zapisane w arkuszu egzaminacyjnym.
+W systemie Windows wykorzystaj konto Administrator z hasłem ZAQ!2wsx
+W systemie Linux wykorzystaj konto administrator z hasłem ZAQ!2wsx (konto z prawem podniesienia
+uprawnień do root z hasłem ZAQ!2wsx)
+Ruter oraz przełącznik pracują na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna
+na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli ruter lub przełącznik wymaga zmiany hasła,
+ustaw je zgodnie z wymogami urządzenia.
+1. Wykonaj montaż zapasowej karty sieciowej na stacji roboczej:
+− zdemontuj zainstalowaną przewodową kartę sieciową. W przypadku zintegrowanej karty sieciowej
+wyłącz ją w BIOS lub Menedżerze urządzeń
+− zamontuj zapasową kartę sieciową znajdującą się na wyposażeniu stanowiska egzaminacyjnego.
+UWAGA: Po zamontowaniu zapasowej karty sieciowej zgłoś Przewodniczącemu ZN – przez podniesienie
+ręki – gotowość do oceny montażu oraz zakończenia prac montażowych. Po uzyskaniu zgody przystąp
+do dalszych czynności montażowych i uruchomienia systemu operacyjnego Windows.
+2. Na stacji roboczej w systemie operacyjnym Windows za pomocą programu CPU-Z oraz dostępnych
+narzędzi systemowych przeprowadź identyfikację podzespołów komputera:
+− zainstaluj program CPU-Z, znajdujący się na nośniku DOKUMENTACJA/PROGRAMY
+− sprawdź parametry podzespołów ujęte w Tabeli 1. Parametry podzespołów stacji roboczej znajdującej
+się w arkuszu egzaminacyjnym. Wykonaj zrzuty dokumentujące przeprowadzoną identyfikację i zapisz
+je w folderze PARAMETRY na dysku USB oznaczonym nazwą Egzamin-x, gdzie x to numer
+stanowiska egzaminacyjnego
+− odczytane dane zapisz w tabeli 1. W przypadku braku możliwości identyfikacji wymaganych
+parametrów przez system należy zapisać brak danych.
+3. Skonfiguruj ruter zgodnie z następującymi zaleceniami:
+− adres IP interfejsu WAN: 88.88.88.2/30, brama domyślna: 88.88.88.1
+− serwer DNS dla interfejsu WAN: 6.6.6.6 oraz drugi: 7.7.7.7, jeśli jest wymagany
+−
+−
+
+adres IP interfejsu LAN: 172.16.10.10/24
+serwer DHCP: wyłączony.
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość
+do oceny ustawień rutera.
+4. Skonfiguruj przełącznik zgodnie z następującymi zaleceniami:
+−
+−
+
+adres IP: 10.0.10.5/24
+brama domyślna: adres IP interfejsu LAN W serwera
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość
+do oceny ustawień przełącznika.
+
+Strona 2 z 5
+
+5. Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia
+zgodnie ze schematem, a następnie podłącz je do sieci zasilającej.
+
+Schemat połączenia urządzeń
+6. Na stacji roboczej skonfiguruj system Linux:
+− skonfiguruj przewodowy interfejs sieciowy przyłączony do przełącznika:
+‒ nazwa połączenia: LAN K
+‒ adres IP: 10.0.10.11/24
+‒ brama domyślna i DNS: adres IP interfejsu LAN W serwera.
+− zmień nazwę komputera na stanowiskoXX, gdzie XX oznacza numer stanowiska egzaminacyjnego
+−
+
+za pomocą polecenia systemowego sprawdź adres fizyczny przewodowej karty sieciowej. Do tabeli 3
+znajdującej się w arkuszu egzaminacyjnym zapisz odczytany adres fizyczny oraz użyte polecenie
+
+−
+−
+−
+
+utwórz w katalogu domowym użytkownika administrator katalog ELEKTRONIKA
+ustaw do katalogu ELEKTRONIKA prawa: właściciel - pełne, grupa - odczyt, inni - wykonanie
+ustaw tapetę pulpitu na plik water.jpg znajdujący się na nośniku DOKUMENTACJA/PROGRAMY
+w katalogu PLIKI.
+
+7. Skonfiguruj serwer z systemem operacyjnym Windows:
+− skonfiguruj przewodowy interfejs sieciowy serwera podłączony do rutera:
+‒ nazwa połączenia: LAN Z
+‒ adres IP: 172.16.10.1/24
+‒ brama domyślna: adres IP rutera
+‒ DNS: localhost
+− skonfiguruj przewodowy interfejs sieciowy serwera podłączony do przełącznika:
+‒ nazwa połączenia: LAN W
+‒ adres IP: 10.0.10.1/24
+‒ brama domyślna: brak
+‒ DNS: localhost
+− promuj serwer do roli kontrolera domeny
+‒ utwórz nową domenę w nowym lesie
+‒ nazwa domeny: firmaXX.local, gdzie XX oznacza numer stanowiska egzaminacyjnego
+(np.: firma05.local dla stanowiska nr 5)
+‒ hasło dla konta Administrator trybu przywracania usług katalogowych: ZAQ!2wsx
+‒ jeśli wymagana jest zmiana hasła konta systemowego Administrator, zmień ją na zaq1@WSX
+−
+
+−
+
+utwórz dla całej domeny nową zasadę grupy o nazwie Polityka i skonfiguruj zasady haseł:
+‒ hasła złożone: włączone
+‒ minimalna długość hasła: 8 znaków
+‒ zaktualizuj zasady przetwarzane przez serwer
+w domenie firmaXX.local, utwórz jednostkę organizacyjną BIURO, a w niej konta użytkowników
+zgodnie z Tabelą 2. Konta domenowe. Użyj haseł zgodnych z ustawioną polityką haseł. Użyte hasła
+zapisz do tabeli 2.
+Strona 3 z 5
+
+8. Utwórz w katalogu głównym na dysku systemowym serwera Windows plik wsadowy według zaleceń:
+‒ nazwa: powitanie.bat
+‒ wyłączone wyświetlanie treści poleceń
+‒ wywołanie pliku wsadowego powoduje:
+−
+
+wyczyszczenie ekranu
+
+−
+−
+
+wyświetlenie komunikatu „Podaj imię: ”
+po wpisaniu imienia, wyświetla w kolejnej linii komunikat: „Witaj xxxxx”, gdzie xxxxx oznacza
+podane imię
+skrypt jest zatrzymywany i nie zamyka się.
+
+−
+
+9. Na serwerze Windows za pomocą poleceń systemowych wykonaj test komunikacji serwera ze stacją
+roboczą Linux, przełącznikiem oraz interfejsem LAN rutera.
+UWAGA: Po wykonaniu testów połączenia zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia ponownego sprawdzenia komunikacji.
+UWAGA: Po zakończeniu prac nie wylogowuj się oraz nie wyłączaj komputerów i urządzeń sieciowych
+znajdujących się na Twoim stanowisku egzaminacyjnym.
+Czas przeznaczony na wykonanie zadania wynosi 150 minut.
+Ocenie będzie podlegać 6 rezultatów:
+− wykonany montaż podzespołu oraz połączenie fizyczne urządzeń,
+− identyfikacja parametrów,
+− skonfigurowane urządzenia sieciowe,
+− skonfigurowany serwer,
+− skonfigurowana stacja robocza,
+− utworzony plik wsadowy
+oraz
+przebieg montażu karty sieciowej
+UWAGA: Zawartość dysku USB, wykorzystywanego podczas egzaminu do zapisu zrzutów ekranowych lub
+dokumentów, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz
+z arkuszem do OKE.
+
+Strona 4 z 5
+
+Tabela 1. Parametry podzespołów stacji roboczej
+Producent i model płyty głównej
+Liczba rdzeni procesora
+Typ gniazda procesora
+Taktowanie podstawowe procesora
+Technologia wykonania procesora
+Wykorzystanie procesora w % (chwilowe)
+
+Tabela 2. Konta domenowe
+Pełna nazwa
+
+Krystyna Nowak
+
+Jan Kowalski
+
+Nazwa logowania
+
+sekretarka
+
+elektronik
+
+Hasło
+
+Tabela 3. Adres fizyczny karty sieciowej
+Adres fizyczny karty sieciowej
+zainstalowanej w stacji roboczej
+Użyte polecenie
+
+Strona 5 z 5
+
+
