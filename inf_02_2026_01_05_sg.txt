@@ -1,0 +1,227 @@
+Arkusz zawiera informacje
+prawnie chronione do momentu
+rozpoczęcia egzaminu
+
+Nazwa kwalifikacji: Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych
+i lokalnych sieci komputerowych
+Symbol kwalifikacji: INF.02
+Numer zadania: 05
+Wersja arkusza: SG
+Wypełnia zdający
+Numer PESEL zdającego*
+
+Miejsce na naklejkę z numerem
+PESEL i z kodem ośrodka
+
+Numer stanowiska
+
+Czas trwania egzaminu: 150 minut
+
+EGZAMIN ZAWODOWY
+Rok 2026
+CZĘŚĆ PRAKTYCZNA
+
+INF.02-05-26.01-SG
+
+PODSTAWA PROGRAMOWA
+2019
+
+Instrukcja dla zdającego
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Na pierwszej stronie arkusza egzaminacyjnego wpisz w oznaczonym miejscu swój numer PESEL*,
+numer stanowiska i naklej naklejkę** z numerem PESEL i z kodem ośrodka.
+Sprawdź, czy arkusz egzaminacyjny zawiera 5 stron i nie zawiera błędów. Ewentualny brak stron
+lub inne usterki zgłoś przez podniesienie ręki przewodniczącemu zespołu nadzorującego.
+Zapoznaj się z treścią zadania oraz stanowiskiem egzaminacyjnym. Masz na to 10 minut. Czas ten nie
+jest wliczany do czasu trwania egzaminu.
+Czas rozpoczęcia i zakończenia pracy zapisze w widocznym miejscu przewodniczący zespołu
+nadzorującego.
+Wykonaj samodzielnie zadanie egzaminacyjne. Przestrzegaj zasad bezpieczeństwa i organizacji
+pracy.
+Jeżeli w zadaniu egzaminacyjnym występuje polecenie „zgłoś gotowość do oceny przez podniesienie
+ręki”, to zastosuj się do polecenia i poczekaj na decyzję przewodniczącego zespołu nadzorującego.
+Po zakończeniu wykonania zadania pozostaw rezultaty jego wykonania oraz arkusz egzaminacyjny
+na swoim stanowisku lub w miejscu wskazanym przez przewodniczącego zespołu nadzorującego.
+Po uzyskaniu zgody zespołu nadzorującego możesz opuścić salę/miejsce przeprowadzania egzaminu.
+Powodzenia!
+
+* w przypadku braku numeru PESEL – seria i numer paszportu lub innego dokumentu potwierdzającego tożsamość
+** w przypadku otrzymania naklejki
+Układ graficzny
+© CKE 2025
+
+Zadanie egzaminacyjne
+Korzystając z dostępnych narzędzi, oprogramowania oraz elementów znajdujących się na stanowisku
+egzaminacyjnym wykonaj czynności zapisane w arkuszu egzaminacyjnym.
+W systemach Windows wykorzystaj konto Administrator z hasłem ZAQ!2wsx
+Ruter i przełącznik pracują na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna na
+nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli ruter lub przełącznik wymagają zmiany hasła,
+ustaw je zgodnie z wymogami urządzenia.
+1. Wykonaj montaż okablowania sieciowego:
+‒ wykonaj patchcord U/UTP prosty według sekwencji T568B zakończony z dwóch stron wtykiem 8P8C
+‒
+zastosuj odpowiedni typ kabla
+UWAGA: Po wykonaniu montażu okablowania zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia testu. W obecności egzaminatora sprawdź za pomocą testera poprawność
+wykonanego okablowania.
+2. Skonfiguruj ruter zgodnie z następującymi zaleceniami:
+UWAGA: Jeżeli konfiguracja VLAN wymaga nadania nazwy, zastosuj nazwę VLANX, gdzie X oznacza numer
+ID, np.: dla ID = 1 nazwa VLAN1 lub inną nazwę, zgodnie z wymogami urządzenia.
+−
+−
+−
+−
+−
+−
+−
+−
+
+wyłączony serwer DHCP
+dodany interfejs VLAN 802.1Q o ID = 1, przypisany do portu 2 z tagowaniem (tryb trunk)
+adres IP dla interfejsu VLAN o ID = 1: 10.10.1.1/24
+dodany interfejs VLAN 802.1Q o ID = 2, przypisany do portu 2 z tagowaniem (tryb trunk)
+adres IP dla interfejsu VLAN o ID = 2: 10.10.2.1/25
+dodany interfejs VLAN 802.1Q o ID = 3, przypisany do portu 2 z tagowaniem (tryb trunk)
+adres IP dla interfejsu VLAN o ID = 3: 10.10.3.1/26
+włączony ruting między sieciami VLAN
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień rutera.
+3. Skonfiguruj przełącznik zgodnie z następującymi zaleceniami:
+− adres IP: 10.10.1.123/24 (dla przełącznika L3 adres IP przypisany do VLAN o ID = 1)
+− brama domyślna: 10.10.1.1
+−
+−
+−
+
+dodana sieć VLAN 802.1Q o ID = 1 z przypisanym portem 1 bez tagowania (tryb dostępu) oraz portem
+4 z tagowaniem (tryb trunk)
+dodana sieć VLAN 802.1Q o ID = 2 z przypisanym portem 2 bez tagowania (tryb dostępu) oraz portem
+4 z tagowaniem (tryb trunk)
+dodana sieć VLAN 802.1Q o ID = 3 z przypisanym portem 3 bez tagowania (tryb dostępu) oraz portem
+4 z tagowaniem (tryb trunk)
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień przełącznika.
+Strona 2 z 5
+
+4. Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia
+zgodnie ze schematem.
+
+Schemat połączenia urządzeń
+5. Na stacji roboczej wykonaj montaż zapasowego dysku twardego dostępnego na stanowisku
+egzaminacyjnym.
+UWAGA: Po wykonaniu czynności montażowych zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do oceny poprawności montażu.
+6. W systemie Windows, za pomocą programu CrystalDiskInfo dokonaj identyfikacji parametrów
+zapasowego dysku twardego stacji roboczej. Program znajduje się w katalogu DIAGNOSTYKA nośnika
+opisanego jako DOKUMENTACJA/PROGRAMY. Wykonaj odczyt parametrów zamontowanego
+zapasowego dysku twardego. Odczytane parametry zapisz w arkuszu egzaminacyjnym w Tabeli 1.
+Parametry dysku stacji roboczej. Odczytane z programu CrystalDiskInfo dane zapisz w postaci zrzutu
+ekranowego pod nazwą paramerty_dysku.jpg, w katalogu identyfikacja na dysku USB oznaczonym
+nazwą Egzamin-x, gdzie x to numer stanowiska egzaminacyjnego. W przypadku braku możliwości
+identyfikacji parametrów przez system należy zapisać brak danych.
+7. Skonfiguruj serwer z systemem operacyjnym Windows zgodnie z następującymi zaleceniami:
+‒
+konfiguracja przewodowego interfejsu sieciowego podłączonego do portu 1 przełącznika:
+‒ nazwa interfejsu: LAN1
+‒ adres IP: 10.10.1.10/24
+‒ brama domyślna: 10.10.1.1
+‒ serwery DNS: 8.8.8.8 oraz 1.1.1.1
+‒
+konfiguracja przewodowego interfejsu sieciowego podłączonego do portu 2 przełącznika:
+‒ nazwa interfejsu: LAN2
+‒ adres IP: 10.10.2.20/25
+‒ brama domyślna: 10.10.2.1
+‒ serwery DNS: 8.8.8.8 oraz 1.1.1.1
+‒
+utwórz folder C:\ftp, a w nim plik egzamin.txt zawierający tekst: EGZAMIN ZAWODOWY INF.02
+‒
+utwórz konto użytkownika o nazwie logowania Egzamin z hasłem docelowym: Zdajacy!@#
+i ustawionymi opcjami: Użytkownik nie może zmienić hasła oraz Hasło nigdy nie wygasa
+Strona 3 z 5
+
+‒
+
+‒
+
+dodaj rolę serwera sieci Web (IIS) z usługą FTP a następnie przeprowadź konfigurację:
+‒ nazwa witryny FTP: FTP_egzamin
+‒ ścieżka fizyczna: C:\ftp
+‒ adres IP powiązany z interfejsem LAN2 serwera
+‒ port: 21
+‒ bez protokołu SSL
+dla witryny FTP ustaw uwierzytelnianie a następnie autoryzację dla konta Egzamin: prawo do
+odczytu i zapisu oraz dla Użytkowników anonimowych: prawo do odczytu
+
+8. Skonfiguruj stację roboczą z systemem Windows zgodnie z następującymi zaleceniami:
+−
+
+skonfiguruj przewodowy interfejs sieciowy stacji roboczej:
+‒ nazwa interfejsu: LAN3
+‒ adres IP: 10.10.3.44/26
+‒ brama domyślna: 10.10.3.1
+‒ serwery DNS: 8.8.8.8 oraz 1.1.1.1
+‒ za pomocą Eksploratora plików sprawdź poprawność działania usługi FTP. Zaloguj się na konto
+użytkownika Egzamin oraz utwórz folder o nazwie INF.02 na serwerze FTP.
+9. Na stacji roboczej za pomocą poleceń systemowych wykonaj test komunikacji stacji roboczej
+z interfejsem LAN1 i LAN2 serwera oraz z przełącznikiem. W razie potrzeby zmień konfigurację zapory
+sieciowej serwera.
+UWAGA: Po wykonaniu testów połączenia zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia ponownego sprawdzenia komunikacji. Sprawdzenie wykonaj w obecności
+egzaminatora.
+UWAGA: Po zakończeniu prac nie wylogowuj się oraz nie wyłączaj komputerów i urządzeń sieciowych
+znajdujących się na Twoim stanowisku egzaminacyjnym.
+
+Czas przeznaczony na wykonanie zadania wynosi 150 minut.
+Ocenie będzie podlegać 5 rezultatów:
+− wykonane okablowanie sieciowe oraz połączenie fizyczne urządzeń,
+−
+−
+
+montaż podzespołów oraz identyfikacja parametrów dysku,
+skonfigurowane urządzenia sieciowe,
+
+− skonfigurowany serwer,
+− skonfigurowana stacja robocza
+oraz
+przebieg wykonywania okablowania sieciowego oraz montowania podzespołu.
+Uwaga: Zawartość dysku USB, wykorzystywanego podczas egzaminu do zapisu zrzutów ekranowych lub
+dokumentów, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz
+z arkuszem do OKE.
+
+Strona 4 z 5
+
+Lp.
+
+Tabela 1. Parametry dysku stacji roboczej
+Parametry
+Wartość
+
+1.
+
+Numer seryjny
+
+2.
+
+Tryb interfejsu
+
+3.
+
+Temperatura [ºC]
+
+4.
+
+Czas pracy dysku [h]
+
+Strona 5 z 5
+
+
