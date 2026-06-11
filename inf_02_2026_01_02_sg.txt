@@ -1,0 +1,237 @@
+Arkusz zawiera informacje
+prawnie chronione do momentu
+rozpoczęcia egzaminu
+
+Nazwa kwalifikacji: Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych
+i lokalnych sieci komputerowych
+Symbol kwalifikacji: INF.02
+Numer zadania: 02
+Wersja arkusza: SG
+Wypełnia zdający
+Numer PESEL zdającego*
+
+Miejsce na naklejkę z numerem
+PESEL i z kodem ośrodka
+
+Numer stanowiska
+
+Czas trwania egzaminu: 150 minut
+
+EGZAMIN ZAWODOWY
+Rok 2026
+CZĘŚĆ PRAKTYCZNA
+
+INF.02-02-26.01-SG
+
+PODSTAWA PROGRAMOWA
+2019
+
+Instrukcja dla zdającego
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Na pierwszej stronie arkusza egzaminacyjnego wpisz w oznaczonym miejscu swój numer PESEL*,
+numer stanowiska i naklej naklejkę** z numerem PESEL i z kodem ośrodka.
+Sprawdź, czy arkusz egzaminacyjny zawiera 5 stron i nie zawiera błędów. Ewentualny brak stron
+lub inne usterki zgłoś przez podniesienie ręki przewodniczącemu zespołu nadzorującego.
+Zapoznaj się z treścią zadania oraz stanowiskiem egzaminacyjnym. Masz na to 10 minut. Czas ten nie
+jest wliczany do czasu trwania egzaminu.
+Czas rozpoczęcia i zakończenia pracy zapisze w widocznym miejscu przewodniczący zespołu
+nadzorującego.
+Wykonaj samodzielnie zadanie egzaminacyjne. Przestrzegaj zasad bezpieczeństwa i organizacji
+pracy.
+Jeżeli w zadaniu egzaminacyjnym występuje polecenie „zgłoś gotowość do oceny przez podniesienie
+ręki”, to zastosuj się do polecenia i poczekaj na decyzję przewodniczącego zespołu nadzorującego.
+Po zakończeniu wykonania zadania pozostaw rezultaty jego wykonania oraz arkusz egzaminacyjny
+na swoim stanowisku lub w miejscu wskazanym przez przewodniczącego zespołu nadzorującego.
+Po uzyskaniu zgody zespołu nadzorującego możesz opuścić salę/miejsce przeprowadzania egzaminu.
+Powodzenia!
+
+* w przypadku braku numeru PESEL – seria i numer paszportu lub innego dokumentu potwierdzającego tożsamość
+** w przypadku otrzymania naklejki
+Układ graficzny
+© CKE 2025
+
+Zadanie egzaminacyjne
+Korzystając z dostępnych narzędzi, oprogramowania oraz elementów znajdujących się na stanowisku
+egzaminacyjnym, wykonaj czynności zapisane w arkuszu egzaminacyjnym.
+W systemie Windows wykorzystaj konto Administrator z hasłem ZAQ!2wsx
+W systemie Linux wykorzystaj konto administrator z hasłem ZAQ!2wsx (konto z prawem podniesienia
+uprawnień do root z hasłem ZAQ!2wsx).
+Ruter oraz przełącznik pracują na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna
+na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli ruter lub przełącznik wymagają zmiany
+hasła, ustaw je zgodnie z wymogami urządzenia.
+Drukarka sieciowa jest dostępna pod adresem IP: 192.168.0.200
+1. Wykonaj montaż okablowania sieciowego:
+− wykonaj kabel krosowy prosty w sekwencji T568B
+− zastosuj odpowiedni typ kabla
+UWAGA: Po wykonaniu montażu okablowania zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia testu. W obecności egzaminatora sprawdź za pomocą testera poprawność
+wykonanego kabla.
+2. Skonfiguruj ruter zgodnie z następującymi zaleceniami:
+− adres IP interfejsu LAN: 192.168.1.1/24
+− serwer DHCP włączony, skonfigurowany z poniższymi ustawieniami:
+− zakres adresów: 192.168.1.101 ÷ 192.168.1.150
+− rezerwacja adresu IP: 192.168.1.101 dla przewodowego interfejsu sieciowego serwera
+podłączonego do przełącznika
+− rezerwacja adresu IP: 192.168.1.102 dla przewodowego interfejsu sieciowego stacji roboczej
+− czas dzierżawy: 12 godzin
+− serwer DNS: 192.168.1.101
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień rutera.
+3. Skonfiguruj przełącznik zgodnie z następującymi zaleceniami:
+−
+−
+
+adres IP: 192.168.1.2/24 (dla przełącznika L3 adres IP przypisany do VLAN o ID = 2)
+brama domyślna: adres IP interfejsu LAN rutera
+
+−
+
+włączona obsługa VLAN 802.1Q
+
+−
+−
+
+utworzony VLAN 802.1Q o ID = 2
+porty 1, 2, 3 przypisane do VLAN o ID = 2 bez tagowania (w trybie dostępu)
+
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień przełącznika.
+
+Strona 2 z 5
+
+4. Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia
+zgodnie ze schematem, a następnie podłącz je do sieci zasilającej.
+
+Schemat połączenia urządzeń
+5. Skonfiguruj interfejsy sieciowe na serwerze w systemie Windows:
+−
+
+−
+
+‒
+
+przewodowy interfejs sieciowy przyłączony do gniazda E-X sieci LAN:
+‒ nazwa połączenia: LAN1
+‒ adres IP: 192.168.0.X/24, gdzie X to numer stanowiska egzaminacyjnego
+‒ brama domyślna: brak
+‒ DNS: localhost
+przewodowy interfejs sieciowy przyłączony do portu 1 przełącznika:
+‒ nazwa połączenia: LAN2
+‒ adres IP: uzyskiwany automatycznie
+‒ DNS: uzyskiwany automatycznie
+odśwież dzierżawę DHCP
+
+6. Skonfiguruj przewodowy interfejs sieciowy na stacji roboczej w systemie Linux:
+− nazwa połączenia: LAN2
+‒ adres IP: uzyskiwany automatycznie
+‒ odśwież dzierżawę DHCP
+7. Na serwerze w systemie Windows za pomocą poleceń systemowych wykonaj test komunikacji serwera
+ze stacją roboczą i drukarką. Na serwerze i stacji roboczej wyświetl automatycznie nadany adres IP.
+UWAGA: Po wykonaniu testów połączenia zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia ponownego sprawdzenia komunikacji. Sprawdzenie wykonaj w obecności
+egzaminatora. Wyświetl automatycznie nadane adresy IP stacji roboczej i serwera.
+8. Skonfiguruj serwer w systemie Windows:
+− dodaj role: serwer DNS oraz Serwer sieci Web (IIS)
+−
+−
+−
+−
+
+utwórz nową strefę wyszukiwania do przodu o nazwie: egzamin.local
+do utworzonej strefy dodaj rekord A o nazwie app powiązany z adresem IP interfejsu LAN2 serwera
+utwórz nową strefę wyszukiwania wstecznego dla podsieci, w której znajduje się interfejs LAN2 serwera
+do utworzonej strefy dodaj rekord PTR dla nazwy hosta app powiązany z adresem IP interfejsu LAN2
+serwera
+Strona 3 z 5
+
+−
+
+na dysku C: utwórz folder o nazwie app, skopiuj do niego plik index.html znajdujący się w folderze
+PLIKI nośnika DOKUMENTACJA/PROGRAMY
+ustaw zabezpieczenia utworzonego folderu tylko dla: Administratorzy – Pełna kontrola, IUSR –
+Odczyt i wykonywanie
+utwórz nową witrynę sieci Web, która publikuje zawartość folderu C:\app pod nazwą hosta
+app.egzamin.local
+na stacji roboczej w systemie Linux wyświetl opublikowaną stronę pod adresem http://192.168.1.101
+
+−
+‒
+‒
+
+UWAGA: Po wyświetleniu strony zgłoś Przewodniczącemu ZN – przez podniesienie
+gotowość do sprawdzenia poprawności wyświetlenia opublikowanej strony na stacji roboczej.
+
+ręki
+
+–
+
+9. Zamontuj w stacji roboczej zapasowy dysk znajdujący się na wyposażeniu stanowiska.
+UWAGA: Po wykonaniu montażu zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość
+do sprawdzenia poprawności montażu dysku.
+10. Skonfiguruj system Linux na stacji roboczej:
+−
+−
+−
+
+−
+
+na zamontowanym zapasowym dysku utwórz nową partycję o pełnej pojemności dysku i sformatuj ją
+z systemem plików ext4
+utwórz katalog /dane i podmontuj pod niego utworzoną partycję
+za pomocą narzędzi systemowych przeprowadź test wydajności odczytu z partycji systemowej oraz
+z partycji na dysku zapasowym. Do wykonania obu testów użyj następujących parametrów:
+− prędkość przesyłania/Liczba próbek: 200
+− prędkość przesyłania/Rozmiar próbki: 20 MiB
+− czas dostępu/Liczba próbek: 1000
+po wykonaniu każdego testu:
+−
+
+−
+
+zapisz w tabeli 1 arkusza egzaminacyjnego zmierzoną średnią prędkość odczytu wraz
+z jednostką
+− wykonaj zrzut ekranu rezultatu testu wydajności i zapisz go na nośniku USB opisanym jako
+Egzamin-x, gdzie x to numer stanowiska egzaminacyjnego
+dokonaj oceny, który dysk jest szybszy i nazwę szybszego dysku (partycji) zapisz w ostatnim wierszu
+tabeli 1.
+
+UWAGA: Po zakończeniu prac nie wylogowuj się oraz nie wyłączaj komputerów i urządzeń sieciowych
+znajdujących się na Twoim stanowisku egzaminacyjnym.
+Czas przeznaczony na wykonanie zadania wynosi 150 minut.
+Ocenie będzie podlegać 5 rezultatów:
+− wykonane okablowanie sieciowe oraz połączenie fizyczne urządzeń,
+−
+−
+
+skonfigurowane urządzenia sieciowe,
+skonfigurowane interfejsy sieciowe,
+
+− skonfigurowany serwer,
+− zmodernizowana stacja robocza i wykonane testy
+oraz
+przebieg wykonywania okablowania sieciowego i modernizacji stacji roboczej.
+Strona 4 z 5
+
+Uwaga: Zawartość dysku USB, wykorzystywanego podczas egzaminu do zapisu zrzutów ekranowych lub
+dokumentów, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz
+z arkuszem do OKE.
+
+Tabela 1. Wydajność dysku
+Partycja systemowa
+Średnia prędkość odczytu
+Jednostka
+Nazwa szybszego dysku (partycji)
+
+Strona 5 z 5
+
+Partycja na dysku zapasowym
+
+
